@@ -4,6 +4,9 @@
 
 git diff --name-only --cached | while read file ; do
 
-grep '  *$' $file && cat $file | sed 's/  *$//g' > $file.new && mv $file.new $file || exit 0
+egrep '[ ]+$' $file && cat $file | sed 's/[ \r]\+$//g' > $file.new && mv $file.new $file || exit 0
 
 done
+
+# CR:
+

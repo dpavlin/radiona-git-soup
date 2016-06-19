@@ -13,5 +13,5 @@ git log --oneline --graph --decorate
 git commit --amend
 
 
-RAZMACI: [---       
+     
 

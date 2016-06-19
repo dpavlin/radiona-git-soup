@@ -2,7 +2,7 @@ Ovo je primjer kolaboratnog korištenja gita za radionicu
 RADIONA-e
 
 
-git diff
+git diff      
 
 git log -p
 
